@@ -44,8 +44,6 @@ function LoginPage() {
         <Text style={styles.txtRegister}>Create Account</Text>
       </TouchableOpacity>
 
-      <Text> OR</Text>
-      
       <TouchableOpacity style={styles.btnLoginGoogle}>
         <Image style={styles.googleLogo} source={require('../assets/google-logo.png')} />
         <Text style={styles.txtLoginGoogle}>Login With Google</Text>
