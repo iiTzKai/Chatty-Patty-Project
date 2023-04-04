@@ -40,6 +40,10 @@ function LoginPage() {
         <Text style={styles.txtLogin}>Login</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity style={styles.btnRegister}>
+        <Text style={styles.txtRegister}>Create Account</Text>
+      </TouchableOpacity>
+
       <Text> OR</Text>
       
       <TouchableOpacity style={styles.btnLoginGoogle}>
@@ -118,5 +122,13 @@ const styles = StyleSheet.create({
     width: 35,
     height: 35,
     marginRight: 20
+  },
+  
+  btnRegister: {
+    marginBottom: 10
+  },
+
+  txtRegister: {
+    color: 'blue'
   }
 });
